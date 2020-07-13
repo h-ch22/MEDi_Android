@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/bg_tutorial3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom = "50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight = "2"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_weight = ".3"
+            android:layout_gravity="center"
+            android:src = "@drawable/bg_clock"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text = "오랫동안\n앱을 사용하지 마세요!"
+            android:fontFamily="@font/maplestory_light"
+            android:textColor="#ffffff"
+            android:textSize = "40sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight = ".2"
+            android:gravity = "center"
+            android:text = "부모님과 시간을 약속하고 사용해주세요."
+            android:textColor = "#ffffff"
+            android:fontFamily="@font/maplestory_light"
+            android:textSize = "20sp"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id = "@+id/btn_next"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/item_btncolor"
+        android:text = "다음"
+        android:textColor = "#66DACE"
+        android:fontFamily="@font/maplestory_light"
+        android:textSize = "17dp"
+        android:drawableEnd="@drawable/arrow_right_blue"
+        android:paddingEnd = "20dp"
+        android:paddingStart = "20dp"/>
+
+</LinearLayout>

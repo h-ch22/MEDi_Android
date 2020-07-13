@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#EB4253"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom = "50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight = "2"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_weight = ".3"
+            android:layout_gravity="center"
+            android:src = "@drawable/bg_kid1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text = "모두 완료!"
+            android:fontFamily="@font/maplestory_light"
+            android:textColor="#ffffff"
+            android:textSize = "40sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight = ".2"
+            android:gravity = "center"
+            android:text = "당신을 만날 준비가 완료되었어요."
+            android:textColor = "#ffffff"
+            android:fontFamily="@font/maplestory_light"
+            android:textSize = "20sp"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id = "@+id/btn_start"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/item_btncolor"
+        android:text = "시작하기"
+        android:textColor = "#EB4253"
+        android:fontFamily="@font/maplestory_light"
+        android:textSize = "17dp"
+        android:drawableEnd="@drawable/ic_arrow_right"
+        android:paddingEnd = "20dp"
+        android:paddingStart = "20dp"/>
+
+</LinearLayout>
