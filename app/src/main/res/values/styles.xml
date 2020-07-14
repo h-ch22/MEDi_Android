@@ -21,7 +21,19 @@
 
     <style name = "Theme_Tutorial3" parent="Theme.AppCompat.Light.NoActionBar">
 
-        <item name="android:statusBarColor">@color/colorTutorial3</item>
+    <item name="android:statusBarColor">@color/colorTutorial3</item>
+
+    </style>
+
+    <style name = "Theme_TutorialFinish" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:statusBarColor">@color/colorTutorialFinish</item>
+
+    </style>
+
+    <style name = "Theme_Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:statusBarColor">@color/colorBase</item>
 
     </style>
 

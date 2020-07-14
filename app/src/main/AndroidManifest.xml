@@ -30,8 +30,29 @@
             android:name=".Tutorial.activity_tutorialThird"
             android:theme = "@style/Theme_Tutorial3"/>
 
-        <activity android:name=".Tutorial.activity_tutorialFinish"/>
+        <activity
+            android:name=".Tutorial.activity_tutorialFinish"
+            android:theme = "@style/Theme_TutorialFinish"/>
+
         <activity android:name=".BaseActivity"/>
         <activity android:name=".activity_home"/>
+        <activity android:name=".Bandage.activity_bandageSelect"/>
+        <activity
+            android:name=".Bandage.activity_bandageStart"
+            android:theme = "@style/Theme_Base"/>
+
+        <activity android:name=".HandSanitizer.activity_handSanitizerSelect"/>
+        <activity
+            android:name=".HandSanitizer.activity_handSanitizerStart"
+            android:theme = "@style/Theme_Base"/>
+
+        <activity android:name=".Mask.activity_maskSelect"/>
+        <activity
+            android:name=".Mask.activity_maskStart"
+            android:theme = "@style/Theme_Base"/>
+        <activity android:name=".Thermometer.activity_thermometerSelect"/>
+        <activity
+            android:name=".Thermometer.activity_thermometerStart"
+            android:theme = "@style/Theme_Base"/>
     </application>
 </manifest>

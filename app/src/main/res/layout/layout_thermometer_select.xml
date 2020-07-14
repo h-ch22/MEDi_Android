@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#8CD0D9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id = "@+id/titleLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:src = "@drawable/bg_title"/>
+
+        <TextView
+            android:id = "@+id/title_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text = "이제 시작합니다!"
+            android:textColor="#ffffff"
+            android:textSize = "40sp"
+            android:fontFamily="@font/maplestory_light"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_home"
+            android:layout_marginTop = "150dp"
+            android:text = "원하는 버튼을 선택해보세요!"
+            android:textColor="#ffffff"
+            android:textSize = "25sp"
+            android:fontFamily="@font/maplestory_light"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:rotation="-45"
+        android:layout_below="@id/titleLL"
+        android:layout_centerHorizontal="true"
+        android:src = "@drawable/ic_thermometer"/>
+
+
+    <FrameLayout
+        android:id = "@+id/secondBtnLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom = "30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id = "@+id/btn_guide"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:stateListAnimator="@null"
+            android:background="@drawable/item_roundbtn_left"
+            android:text = "사용법 보기"
+            android:layout_gravity="start"
+            android:fontFamily="@font/maplestory_light"
+            android:textColor="#8CD0D9"
+            android:textSize = "30sp"/>
+
+        <Button
+            android:id = "@+id/btn_todo"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:stateListAnimator="@null"
+            android:background="@drawable/item_roundbtn_right"
+            android:text = "직접 해보기"
+            android:layout_gravity="end"
+            android:fontFamily="@font/maplestory_light"
+            android:textColor="#8CD0D9"
+            android:textSize = "30sp"/>
+
+    </FrameLayout>
+
+</RelativeLayout>

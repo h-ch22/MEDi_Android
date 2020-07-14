@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8CD0D9">
+
+    <FrameLayout
+        android:id = "@+id/thermometerLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src = "@drawable/img_circle_orange"
+            android:layout_gravity="start|center_vertical"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src = "@drawable/img_circle_yellow"
+            android:layout_gravity="right|center_vertical"/>
+
+        <ImageView
+            android:id = "@+id/bandView"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src = "@drawable/ic_handsanitizer_large" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity = "bottom">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text = "손소독제"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/maplestory_light"
+                android:textSize = "60dp"
+                android:gravity = "center"/>
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "손에 있는 세균을\n제거해보아요!"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/maplestory_light"
+        android:textSize = "30dp"
+        android:gravity="center"
+        android:layout_marginTop = "20dp"
+        android:layout_below="@id/thermometerLL"/>
+
+    <Button
+        android:id = "@+id/btn_start"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/item_btncolor"
+        android:text = "시작하기"
+        android:textColor = "#8CD0D9"
+        android:fontFamily="@font/maplestory_light"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom = "30dp"
+        android:textSize = "17dp"
+        android:drawableEnd="@drawable/arrow_right_blue"
+        android:paddingEnd = "20dp"
+        android:paddingStart = "20dp"/>
+
+</RelativeLayout>

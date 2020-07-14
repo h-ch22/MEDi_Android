@@ -6,4 +6,6 @@
     <color name="colorTutorial1">#F8D14C</color>
     <color name="colorTutorial2">#BCDD8F</color>
     <color name="colorTutorial3">#66DACE</color>
+    <color name = "colorTutorialFinish">#EB4253</color>
+    <color name="colorBase">#8CD0D9</color>
 </resources>
