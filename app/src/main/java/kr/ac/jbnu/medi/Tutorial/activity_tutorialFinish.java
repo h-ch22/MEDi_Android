@@ -1,6 +1,7 @@
 package kr.ac.jbnu.medi.Tutorial;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -18,6 +19,10 @@ public class activity_tutorialFinish extends BaseActivity {
         setContentView(R.layout.layout_tutorial_finish);
 
         Button startBtn = findViewById(R.id.btn_start);
+
+
+        player = MediaPlayer.create(this, R.raw.finish);
+        playSound();
 
         startBtn.setOnClickListener(new View.OnClickListener() {
             @Override

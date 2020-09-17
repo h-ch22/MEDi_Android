@@ -45,6 +45,7 @@
 
     <Button
         android:id = "@+id/btn_next"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -53,7 +54,8 @@
         android:textColor = "#BCDD8F"
         android:fontFamily="@font/maplestory_light"
         android:textSize = "17dp"
-        android:drawableEnd="@drawable/arrow_right_green"
+        android:drawableEnd="@drawable/ic_arrow_right"
+        android:drawableTint="#BCDD8F"
         android:paddingEnd = "20dp"
         android:paddingStart = "20dp"/>
 

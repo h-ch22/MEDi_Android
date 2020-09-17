@@ -7,8 +7,6 @@ import android.widget.Button;
 
 import androidx.annotation.Nullable;
 
-import kr.ac.jbnu.medi.Bandage.activity_bandageSelect;
-import kr.ac.jbnu.medi.Bandage.activity_bandageStart;
 import kr.ac.jbnu.medi.BaseActivity;
 import kr.ac.jbnu.medi.R;
 

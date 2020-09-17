@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#8CD0D9"
+    android:weightSum="5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src = "@drawable/ic_buypromote"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text = "가지고 있는 피규어에 알맞는\n의약외품 키트를 구매해보세요!"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/maplestory_light"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight = "3">
+
+        <Button
+            android:id = "@+id/btn_confirm"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:text = "구매 신청하기"
+            android:textColor="#1c5fc9"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/maplestory_light"
+            android:drawableEnd="@drawable/arrow_feedback"
+            android:drawableTint="#1c5fc9"
+            android:paddingEnd="30dp"
+            android:paddingStart="30dp"
+            android:background="@drawable/btn_rounded_shape"/>
+
+        <Button
+            android:id = "@+id/btn_check"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:text = "구매정보 확인 및 복원하기"
+            android:textColor="#ffffff"
+            android:background="#00ffffff"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/maplestory_light"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:drawableTint="#ffffff"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

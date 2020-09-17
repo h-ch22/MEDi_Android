@@ -1,11 +1,13 @@
 package kr.ac.jbnu.medi;
 
 import android.app.ProgressDialog;
+import android.media.MediaPlayer;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class BaseActivity extends AppCompatActivity {
     private ProgressDialog mProgressDialog;
+    protected static MediaPlayer player;
 
     public void showProgressDialog(){
         if(mProgressDialog == null){
@@ -21,5 +23,10 @@ public class BaseActivity extends AppCompatActivity {
         if(mProgressDialog == null && mProgressDialog.isShowing()){
             mProgressDialog.dismiss();
         }
+    }
+
+    public void playSound(){
+        player.setLooping(false);
+        player.start();
     }
 }

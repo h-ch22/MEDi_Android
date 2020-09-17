@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "251225470376",
+    "firebase_url": "https://medi-f1c5a.firebaseio.com",
+    "project_id": "medi-f1c5a",
+    "storage_bucket": "medi-f1c5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251225470376:android:fb850dab776de5754c599d",
+        "android_client_info": {
+          "package_name": "kr.ac.jbnu.medi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251225470376-tvc3r0khbtmvrfb5e9r1j7or55urvs5n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.ac.jbnu.medi",
+            "certificate_hash": "ca79c6ea0fc7b94883d1721f4100e5a57b214399"
+          }
+        },
+        {
+          "client_id": "251225470376-2mausqg6i07kp748607jphlku8a9ff7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk88h37KR3xBmf_BYYZ5I98h4ScZJrh4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251225470376-2mausqg6i07kp748607jphlku8a9ff7g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "251225470376-3svnek752hbgg6ah1p1f7dvhtjt3m89r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "kr.ac.jbnu.MEDi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

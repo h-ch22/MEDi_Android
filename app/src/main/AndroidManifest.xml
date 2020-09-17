@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="kr.ac.jbnu.medi">
 
+    <uses-permission android:name="android.permission.CAMERA" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -37,22 +38,30 @@
         <activity android:name=".BaseActivity"/>
         <activity android:name=".activity_home"/>
         <activity android:name=".Bandage.activity_bandageSelect"/>
+        
         <activity
             android:name=".Bandage.activity_bandageStart"
             android:theme = "@style/Theme_Base"/>
 
         <activity android:name=".HandSanitizer.activity_handSanitizerSelect"/>
+
         <activity
             android:name=".HandSanitizer.activity_handSanitizerStart"
             android:theme = "@style/Theme_Base"/>
 
         <activity android:name=".Mask.activity_maskSelect"/>
+
         <activity
             android:name=".Mask.activity_maskStart"
             android:theme = "@style/Theme_Base"/>
         <activity android:name=".Thermometer.activity_thermometerSelect"/>
+
         <activity
             android:name=".Thermometer.activity_thermometerStart"
             android:theme = "@style/Theme_Base"/>
+
+        <activity android:name=".Feedback.activity_feedback"/>
+        <activity android:name = ".additional.KakaoPay.activity_kakaoPay"/>
+        <activity android:name=".Mask.TODO.View.activity_livePreview"/>
     </application>
 </manifest>

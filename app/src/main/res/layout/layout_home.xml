@@ -34,13 +34,14 @@
                 android:layout_marginTop = "20dp"/>
 
             <ImageButton
+                android:id = "@+id/feedback"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop = "10dp"
                 android:layout_marginEnd="1dp"
                 android:layout_toStartOf="@id/cart"
                 android:background="@android:color/transparent"
-                android:src="@drawable/ic_sun" />
+                android:src="@drawable/ic_heart" />
 
             <ImageButton
                 android:id = "@+id/cart"
@@ -59,7 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text = "오늘은 어떤 것을\n배워볼까요?"
+            android:text = "오늘은 어떤 것을\n알아볼까요?"
             android:textColor="#ffffff"
             android:textSize = "40sp"
             android:fontFamily="@font/maplestory_light"
@@ -82,13 +83,13 @@
         android:id = "@+id/firstBtnLL"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop = "30dp"
+        android:layout_marginTop = "80dp"
         android:layout_below = "@id/titleLL">
 
         <Button
             android:id = "@+id/btn_Thermometer"
             android:layout_width="200dp"
-            android:layout_height="150dp"
+            android:layout_height="100dp"
             android:stateListAnimator="@null"
             android:background="@drawable/item_roundbtn_left"
             android:text = "체온계"
@@ -100,7 +101,7 @@
         <Button
             android:id = "@+id/btn_Mask"
             android:layout_width="200dp"
-            android:layout_height="150dp"
+            android:layout_height="100dp"
             android:stateListAnimator="@null"
             android:background="@drawable/item_roundbtn_right"
             android:text = "마스크"
@@ -115,14 +116,14 @@
         android:id = "@+id/secondBtnLL"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop = "20dp"
+        android:layout_marginTop = "80dp"
         android:layout_below = "@id/firstBtnLL"
         android:orientation="horizontal">
 
         <Button
             android:id = "@+id/btn_HandSanitizer"
             android:layout_width="200dp"
-            android:layout_height="150dp"
+            android:layout_height="100dp"
             android:stateListAnimator="@null"
             android:background="@drawable/item_roundbtn_left"
             android:text = "손소독제"
@@ -134,7 +135,7 @@
         <Button
             android:id = "@+id/btn_band"
             android:layout_width="200dp"
-            android:layout_height="150dp"
+            android:layout_height="100dp"
             android:stateListAnimator="@null"
             android:background="@drawable/item_roundbtn_right"
             android:text = "밴드"
@@ -148,6 +149,7 @@
     <ImageView
         android:layout_width="85dp"
         android:layout_height="90dp"
+        android:layout_marginTop = "30dp"
         android:layout_below="@id/titleLL"
         android:src = "@drawable/ic_thermometer"
         android:rotation = "-45"/>
@@ -155,6 +157,7 @@
     <ImageView
         android:layout_width="85dp"
         android:layout_height="90dp"
+        android:layout_marginTop = "30dp"
         android:layout_below="@id/titleLL"
         android:layout_alignRight="@id/firstBtnLL"
         android:src = "@drawable/ic_mask" />
@@ -162,12 +165,14 @@
     <ImageView
         android:layout_width="85dp"
         android:layout_height="90dp"
+        android:layout_marginTop = "20dp"
         android:layout_below="@id/firstBtnLL"
         android:src="@drawable/ic_handsanitizer" />
 
     <ImageView
         android:layout_width="85dp"
         android:layout_height="90dp"
+        android:layout_marginTop = "30dp"
         android:layout_below = "@id/firstBtnLL"
         android:layout_alignRight="@id/secondBtnLL"
         android:src = "@drawable/ic_bandage" />
