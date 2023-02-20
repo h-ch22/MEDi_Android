@@ -6,9 +6,8 @@ MEDi
 > This Project is archived : This project has been discontinued and will no longer be updated.
 
 * Build Environment<br/>
-  + macOS 11.0, Xcode 12, iOS 14<br/>
-  + Minimum iOS Version : iOS 13.0 or up.<br/>
-  + Built with Swift, SwiftUI<br/>
+  + macOS 11.0, Android 10<br/>
+  + Minimum Android Version : Android 10 or up.<br/>
   + Unity 2021 <br/>
 
 ### 많이 사용하고, 그만큼이나 중요한 체온계, 마스크, 손소독제, 밴드에 대한 올바른 사용법<br/>
