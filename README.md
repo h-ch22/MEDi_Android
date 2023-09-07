@@ -3,7 +3,8 @@
 MEDi
 =====
 > 아동 대상 의약외품의 올바른 사용법 교육 애플리케이션<br/>
-> This Project is archived : This project has been discontinued and will no longer be updated.
+> This Project is archived : This project has been discontinued and will no longer be updated.</br>
+> ⓒ 2020. Changjin Ha, Yejin Seo, Hyunjin Yoo, †Hayeon Oh (23.06.30). All Rights Reserved.<br>
 
 * Build Environment<br/>
   + macOS 11.0, Android 10<br/>
